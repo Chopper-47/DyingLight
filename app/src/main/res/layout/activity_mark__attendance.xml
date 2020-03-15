@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mark_Attendance"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        >
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/studentImage"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvstudentname"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/tvstudentid"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"
+            />
+
+        <RadioGroup
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/rg"
+            android:gravity="center"
+            android:layout_marginTop="7dp"
+            >
+            <RadioButton
+                android:id="@+id/rbpresent"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:text = "Present"
+                android:padding="15dp"
+                />
+
+            <RadioButton
+                android:id="@+id/rbabsent"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:text = "Absent"
+                android:padding="15dp"
+                />
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Mark Attendance"
+            android:textSize="20dp"
+            android:textColor="#EEEEEE"
+            android:background="#111111"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="75dp"
+            android:textAllCaps="false"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

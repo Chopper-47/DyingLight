@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id = "@+id/view"
+        android:title="View Details"/>
+
+    <item
+        android:id = "@+id/edit"
+        android:title="Edit Details"/>
+
+    <item
+        android:id="@+id/markAttendance"
+        android:title="Mark Attendance"/>
+
+
+
+</menu>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditStudentDetails"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/studentImage"
+            />
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:padding="10dp"
+            android:textColor="#111111"
+            android:textSize="15dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:layout_weight="0.6"
+            />
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="10dp"
+            android:textColor="#111111"
+            android:textSize="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.4"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:padding="10dp"
+            android:textColor="#111111"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:layout_weight="0.6"
+            />
+        <TextView
+            android:id="@+id/tvid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="10dp"
+            android:textColor="#111111"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.4"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Classes"
+            android:padding="10dp"
+            android:textColor="#111111"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:layout_weight="0.6"
+            />
+        <TextView
+            android:id="@+id/tvtotalclasses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="10dp"
+            android:textColor="#111111"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.4"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Marks"
+            android:padding="10dp"
+            android:textColor="#111111"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:layout_weight="0.6"
+            />
+        <EditText
+            android:id="@+id/etmarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="0-100"
+            android:padding="10dp"
+            android:textColor="#111111"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.4"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Attendance"
+            android:padding="10dp"
+            android:textColor="#111111"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:layout_weight="0.6"
+            />
+
+
+        <EditText
+            android:id="@+id/etattendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="10dp"
+            android:textColor="#111111"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.4"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Details"
+            android:layout_marginTop="30dp"
+            android:padding="15dp"
+            android:textSize="15dp"
+            android:background="#111111"
+            android:textColor="#EEEEEE"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

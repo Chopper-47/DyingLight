@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewStudentDetails"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="7dp"
+        android:layout_marginLeft="78dp"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/alert_studentImage"
+
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Main Title"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:textSize="20dp"
+                android:id="@+id/alert_studentName"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sub Title"
+                android:textColor="#a9a9a9"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:id="@+id/alert_studentID"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="85dp"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marks"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.6"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/alert_tvmarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.4"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="85dp"
+        >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attendance"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.6"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:id="@+id/alert_tvattendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.4"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="85dp"
+        >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attendance%"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.6"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:id="@+id/alert_tvattendancepercent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.4"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:src="@drawable/ns" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/notifyStudent"
+            android:text="Notify student\n of their details"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#444444"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:clickable="true"
+            android:padding="7dp"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewStudentDetails"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/studentImage"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="85dp"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="10dp"
+            android:textColor="#111111"
+            android:textSize="15dp"
+            android:layout_weight="0.4"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="85dp"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            />
+        <TextView
+            android:id="@+id/tvid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.4"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="85dp"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marks"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.6"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/tvmarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.4"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="85dp"
+        >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attendance"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.6"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:id="@+id/tvattendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.4"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="85dp"
+        >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attendance%"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.6"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:id="@+id/tvattendancepercent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.4"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:src="@drawable/ns" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/notifyStudent"
+            android:text="Notify student\n of their details"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#444444"
+            android:textSize="12dp"
+            android:textStyle="italic"
+            android:clickable="true"
+            android:padding="7dp"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

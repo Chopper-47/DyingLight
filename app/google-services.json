@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1040316098957",
+    "firebase_url": "https://dyinglight.firebaseio.com",
+    "project_id": "dyinglight",
+    "storage_bucket": "dyinglight.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040316098957:android:4e57500a211bea0b4bf5c4",
+        "android_client_info": {
+          "package_name": "com.example.dyinglight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040316098957-purm7cl6snbvls8oscvvua86ikrjbehr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dyinglight",
+            "certificate_hash": "e307662150ce24199caf88bd7a8f2a6a41963147"
+          }
+        },
+        {
+          "client_id": "1040316098957-1fbbh80itucnbcc1nuu766t74mokhgv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs7pYnHWinKCQvP0HaYSmpFPf3mwygKLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040316098957-1fbbh80itucnbcc1nuu766t74mokhgv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
